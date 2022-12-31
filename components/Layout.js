@@ -14,11 +14,9 @@ export default function Layout({children, title, description, keywords, canonica
                 <link rel="canonical" href={canonical} />
             </Head>
             <div className="container">
-                <div className="row">
-                    <Header />
-                    {children}
-                    <Footer />
-                </div>
+                <Header />
+                {children}
+                <Footer />
             </div>
         </>
     )
