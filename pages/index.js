@@ -6,7 +6,7 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <Layout title={Seo.title} description={Seo.description} keywords={Seo.keywords} canonical={"http://localhost:3000" + router.pathname}>
+    <Layout title={Seo.home.title} description={Seo.home.description} keywords={Seo.home.keywords} canonical={"http://localhost:3000" + router.pathname}>
       <div className="col-12">
         Anasayfa
       </div>
