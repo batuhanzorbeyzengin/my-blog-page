@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Seo from "../styles/HeadData.json";
 import { useRouter } from "next/router";
 import Image from 'next/image';
+import HomeBlogSection from '../components/HomeBlogSection';
 
 export default function Home() {
   const router = useRouter();
@@ -25,6 +26,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <HomeBlogSection />
     </Layout>
   )
 }
